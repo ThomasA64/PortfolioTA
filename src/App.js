@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 //Styles:
 import "./styles/menu.css";
 import "./styles/styles.css";
+import "./styles/animations.css";
 
 function App() {
   return (

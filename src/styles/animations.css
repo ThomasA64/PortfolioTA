@@ -1,0 +1,38 @@
+.load-in-top {
+  animation: load-in-top 1s ease-in;
+}
+
+@keyframes load-in-top {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.load-in-left {
+  animation: load-in-left 4s ease-in;
+}
+
+@keyframes load-in-left {
+  0% {
+    transform: translateX(-500%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.load-in-right {
+  animation: load-in-right 4s ease-in;
+}
+
+@keyframes load-in-right {
+  0% {
+    transform: translateX(500%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

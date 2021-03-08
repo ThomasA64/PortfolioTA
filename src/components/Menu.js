@@ -13,16 +13,16 @@ export default function Menu() {
             <div>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/">HOME</a>
                 </li>
                 <li>
-                  <a href="/">Bio</a>
+                  <a href="/">BIO</a>
                 </li>
                 <li>
-                  <a href="/">Projects</a>
+                  <a href="/">PROJECTS</a>
                 </li>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/">GITHUB</a>
                 </li>
               </ul>
             </div>
