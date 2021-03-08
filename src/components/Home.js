@@ -20,16 +20,11 @@ export default function Home() {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
             alt="web logo"
           />
-          <img
-            className="logo-img"
-            src="https://www9.lunapic.com/editor/working/161521795211012906?5490135322"
-            alt="web logo"
-          />
         </div>
         <div className="logo-contain load-in-right">
           <img
             className="logo-img"
-            src="https://www9.lunapic.com/editor/working/161521795211012906?2432420124"
+            src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png"
             alt="web logo"
           />
           <img
