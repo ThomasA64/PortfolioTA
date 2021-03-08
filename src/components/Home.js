@@ -24,7 +24,7 @@ export default function Home() {
         <div className="logo-contain load-in-right">
           <img
             className="logo-img"
-            src="http://assets.stickpng.com/images/584815fdcef1014c0b5e497a.png"
+            src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png"
             alt="web logo"
           />
           <img
