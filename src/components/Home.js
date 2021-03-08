@@ -6,7 +6,7 @@ export default function Home() {
       <div className="container showcase-inner">
         <h1>TA Profile</h1>
         <p>Welcome to my personal site</p>
-        <a href="#" className="btn">
+        <a href="/" className="btn">
           Read More
         </a>
       </div>
