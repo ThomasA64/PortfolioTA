@@ -58,11 +58,13 @@ body {
 
 .showcase h1 {
   font-size: 2.5rem;
+  font-weight: 900;
   color: rgba(19, 77, 2, 1);
 }
 
 .showcase h2 {
   font-size: 1.3rem;
+  font-weight: 900;
   color: rgba(19, 77, 2, 1);
 }
 
@@ -71,15 +73,21 @@ body {
   border: none;
   background-color: green;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 0.25rem 0.8rem;
   margin-top: 1rem;
+  margin: 1rem;
   text-decoration: none;
   transition: opacity 1s ease-in;
-  border-radius: 25px;
+  border-radius: 2px;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
   opacity: 0.7;
+}
+
+.fab {
+  padding: 0.25rem;
 }
 
 .logo-contain {

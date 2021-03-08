@@ -16,13 +16,15 @@ export default function Menu() {
                   <a href="/">HOME</a>
                 </li>
                 <li>
-                  <a href="/">BIO</a>
+                  <a href="https://www.linkedin.com/in/ta64/">BIO</a>
                 </li>
                 <li>
-                  <a href="/">PROJECTS</a>
+                  <a href="https://github.com/ThomasA64?tab=repositories">
+                    PROJECTS
+                  </a>
                 </li>
                 <li>
-                  <a href="/">GITHUB</a>
+                  <a href="https://github.com/ThomasA64">GITHUB</a>
                 </li>
               </ul>
             </div>

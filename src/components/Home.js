@@ -33,9 +33,20 @@ export default function Home() {
             alt="web logo"
           />
         </div>
-        <a href="/" className="btn load-in-left">
-          Read More
-        </a>
+        <div>
+          {" "}
+          <a href="https://github.com/ThomasA64" className="btn load-in-bottom">
+            github
+            <i className="fab fa-github-square"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ta64/"
+            className="btn load-in-bottom "
+          >
+            linkedIn
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
       </div>
     </header>
   );

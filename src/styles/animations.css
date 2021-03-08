@@ -11,8 +11,21 @@
   }
 }
 
+.load-in-bottom {
+  animation: load-in-bottom 5s ease-in;
+}
+
+@keyframes load-in-bottom {
+  0% {
+    transform: translateY(500%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .load-in-left {
-  animation: load-in-left 4s ease-in;
+  animation: load-in-left 2.25s ease-in;
 }
 
 @keyframes load-in-left {
@@ -25,7 +38,7 @@
 }
 
 .load-in-right {
-  animation: load-in-right 4s ease-in;
+  animation: load-in-right 2.25s ease-in;
 }
 
 @keyframes load-in-right {
