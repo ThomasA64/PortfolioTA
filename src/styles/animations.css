@@ -13,6 +13,8 @@
 
 .load-in-bottom {
   animation: load-in-bottom 5s ease-in;
+  display: flex;
+  flex-direction: row;
 }
 
 @keyframes load-in-bottom {
