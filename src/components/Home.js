@@ -33,7 +33,7 @@ export default function Home() {
             alt="web logo"
           />
         </div>
-        <div>
+        <div className="logobtns">
           {" "}
           <a href="https://github.com/ThomasA64" className="btn load-in-bottom">
             github
