@@ -12,7 +12,7 @@
 }
 
 .load-in-bottom {
-  animation: load-in-bottom 6s ease-in;
+  animation: load-in-bottom 6.5s ease-in;
   display: flex;
   flex-direction: row;
 }
