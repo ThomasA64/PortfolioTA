@@ -13,6 +13,12 @@
 
 body {
   line-height: 1.4;
+  background: rgba(19, 77, 2, 1);
+  background: linear-gradient(
+    135deg,
+    rgba(19, 77, 2, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .container {
@@ -63,7 +69,6 @@ body {
   font-size: 2.5rem;
   font-weight: 900;
   color: rgba(19, 77, 2, 1);
-  text-shadow: black;
   text-shadow: 2px 2px 8px darkgray;
 }
 
@@ -99,9 +104,11 @@ body {
 
 .logo-contain {
   padding: 1em;
+  text-align: center;
   background-color: transparent;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  color: rgba(19, 77, 2, 1);
   margin-top: 20px;
   border-radius: 5px;
 }
@@ -114,6 +121,7 @@ body {
 }
 
 .logobtns {
+  text-align: center;
   display: flex;
   justify-content: center;
 }
@@ -128,4 +136,9 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
