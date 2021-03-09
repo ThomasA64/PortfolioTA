@@ -35,6 +35,7 @@ export default function Home() {
           <img
             className="logo-img"
             src="https://www.upgraderails.com/static/logo-d11d2b0ef0994291a0fa1361b8d069ed.png"
+            alt="ruby on rails logo"
           />
         </div>
         <div className="logobtns">
