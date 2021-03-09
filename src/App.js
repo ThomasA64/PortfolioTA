@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
       <Menu />
-      <Nav />
       <Switch>
         <Route component={Home} path="/" exact />
       </Switch>
