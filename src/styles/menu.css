@@ -125,6 +125,11 @@
   transition: opacity 0.4s ease;
 }
 
+.menu-wrap .menu > div > div > ul {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: whitesmoke;

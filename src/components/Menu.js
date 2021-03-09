@@ -10,22 +10,6 @@ export default function Menu() {
         </div>
         <div className="menu">
           <div>
-            <div
-              class="LI-profile-badge"
-              data-version="v1"
-              data-size="medium"
-              data-locale="en_US"
-              data-type="vertical"
-              data-theme="dark"
-              data-vanity="ta64"
-            >
-              <a
-                class="LI-simple-link"
-                href="https://ca.linkedin.com/in/ta64?trk=profile-badge"
-              >
-                Thomas G. Arthur
-              </a>
-            </div>
             <div>
               <ul>
                 <li>
@@ -43,6 +27,22 @@ export default function Menu() {
                   <a href="https://github.com/ThomasA64">GITHUB</a>
                 </li>
               </ul>
+              <div
+                className="LI-profile-badge"
+                data-version="v1"
+                data-size="medium"
+                data-locale="en_US"
+                data-type="vertical"
+                data-theme="dark"
+                data-vanity="ta64"
+              >
+                <a
+                  className="LI-simple-link"
+                  href="https://ca.linkedin.com/in/ta64?trk=profile-badge"
+                >
+                  Thomas G. Arthur
+                </a>
+              </div>
             </div>
           </div>
         </div>
