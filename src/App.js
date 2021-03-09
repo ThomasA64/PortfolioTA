@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 //Components:
 import Home from "./components/Home";
 import Menu from "./components/Menu";
-import Nav from "./components/Nav";
 
 //Styles:
 import "./styles/menu.css";
