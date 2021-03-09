@@ -35,7 +35,7 @@ export default function Menu() {
               >
                 <a
                   className="LI-simple-link"
-                  href="https://ca.linkedin.com/in/ta64?trk=profile-badge"
+                  href="https://www.linkedin.com/in/ta64/"
                 >
                   Thomas G. Arthur
                 </a>

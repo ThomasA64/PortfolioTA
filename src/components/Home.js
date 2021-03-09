@@ -19,21 +19,22 @@ export default function Home() {
             alt="web logo"
           />
           <img
-            className="logo-img"
+            className="logo-img App-logo"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
             alt="web logo"
           />
+          <img className="logo-img" src="./docs/Node.png" alt="node logo" />
         </div>
         <div className="logo-contain load-in-right">
-          <img
-            className="logo-img"
-            src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png"
-            alt="web logo"
-          />
+          <img className="logo-img" src="./docs/PSQLGood.png" alt="web logo" />
           <img
             className="logo-img"
             src="https://www.sohamkamani.com/static/65137ed3c844d05124dcfdab28263c21/express-routing-logo.png"
             alt="web logo"
+          />
+          <img
+            className="logo-img"
+            src="https://www.upgraderails.com/static/logo-d11d2b0ef0994291a0fa1361b8d069ed.png"
           />
         </div>
         <div className="logobtns">
