@@ -12,7 +12,7 @@
 }
 
 .load-in-bottom {
-  animation: load-in-bottom 5s ease-in;
+  animation: load-in-bottom 6s ease-in;
   display: flex;
   flex-direction: row;
 }
@@ -40,7 +40,7 @@
 }
 
 .load-in-right {
-  animation: load-in-right 2.25s ease-in;
+  animation: load-in-right 3.25s ease-in;
 }
 
 @keyframes load-in-right {

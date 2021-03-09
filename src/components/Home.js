@@ -4,11 +4,14 @@ export default function Home() {
   return (
     <header className="showcase">
       <div className="container showcase-inner">
-        <h1 className="load-in-top">THOMAS G. ARTHUR</h1>
-        <h2 className="load-in-top">
-          Junior Full-Stack Developer <i className="fas fa-laptop-code"></i>
-        </h2>
-
+        <div className="main">
+          <div className="main-title">
+            <h1 className="load-in-top">THOMAS G. ARTHUR</h1>
+            <h2 className="load-in-top">
+              Full-Stack Developer <i className="fas fa-laptop-code"></i>
+            </h2>
+          </div>
+        </div>
         <div className="logo-contain load-in-left">
           <img
             className="logo-img"
