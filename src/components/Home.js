@@ -39,6 +39,9 @@ export default function Home() {
               <i className="fab fa-linkedin"></i>
             </a>
           </div>
+          <div class="arrow">
+            <div class="arrow-mask"></div>
+          </div>
         </div>
       </header>
     </>
