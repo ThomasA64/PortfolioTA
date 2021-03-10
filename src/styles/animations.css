@@ -12,7 +12,7 @@
 }
 
 .load-in-bottom {
-  animation: load-in-bottom 6.5s ease-in;
+  animation: load-in-bottom 7.5s ease-in;
   display: flex;
   flex-direction: row;
 }
@@ -46,6 +46,19 @@
 @keyframes load-in-right {
   0% {
     transform: translateX(500%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.load-in-left-delayed {
+  animation: load-in-left 4.25s ease-in;
+}
+
+@keyframes load-in-left {
+  0% {
+    transform: translateX(-500%);
   }
   100% {
     transform: translateX(0);
