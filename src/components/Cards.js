@@ -8,13 +8,14 @@ export default function Cards() {
           <h1 className="bio">KNOWLEDGE</h1>
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a href="">
+              <a href="/">
                 <div class="card-flyer">
                   <div class="text-box">
                     <div class="image-box">
                       <img
+                        className="App-logo"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                        alt=""
+                        alt="react-logo"
                       />
                     </div>
                     <div class="text-container">
@@ -34,13 +35,14 @@ export default function Cards() {
               </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a href="">
+              <a href="/">
                 <div class="card-flyer">
                   <div class="text-box">
                     <div class="image-box">
                       <img
+                        className="App-logo"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                        alt=""
+                        alt="react-logo"
                       />
                     </div>
                     <div class="text-container">
@@ -59,13 +61,14 @@ export default function Cards() {
               </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <a href="">
+              <a href="/">
                 <div class="card-flyer">
                   <div class="text-box">
                     <div class="image-box">
                       <img
+                        className="App-logo"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                        alt=""
+                        alt="react-logo"
                       />
                     </div>
 
