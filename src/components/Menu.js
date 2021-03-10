@@ -47,21 +47,3 @@ export default function Menu() {
     </>
   );
 }
-{
-  /* <div
-                className="LI-profile-badge"
-                data-version="v1"
-                data-size="medium"
-                data-locale="en_US"
-                data-type="vertical"
-                data-theme="dark"
-                data-vanity="ta64"
-              >
-                <a
-                  className="LI-simple-link"
-                  href="https://www.linkedin.com/in/tga64/"
-                >
-                  Thomas G. Arthur
-                </a>
-              </div> */
-}
