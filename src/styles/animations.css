@@ -162,3 +162,24 @@
     transform: rotate(360deg);
   }
 }
+
+.radiant {
+  background-color: #222;
+  animation: mix 5s linear infinite;
+}
+
+@keyframes mix {
+  30% {
+    box-shadow: 0 -1em 2em 3em rgb(161, 118, 0),
+      4em -1em 2em 3em rgba(0, 58, 3, 0.5), -4em 2em 3em 2em rgb(161, 118, 0),
+      -4em -2em 2em 2em rgba(0, 58, 3, 0.5), 0 3em 2em 2em rgba(20, 250, 0, 0.5),
+      2em 1em 2em 2em rgba(0, 58, 3, 0.5);
+  }
+
+  60% {
+    box-shadow: 2em 1em 2em 3em rgba(0, 58, 3, 0.5),
+      3em 1em 2em 3em rgbrgb(161, 118, 0), 3em -2em 3em 3em rgba(0, 58, 3, 0.5),
+      -4em 2em 2em 3em rgbrgb(161, 118, 0), 0 -3em 2em 3em rgba(0, 58, 3, 0.5),
+      -2em 1em 2em 3em rgba(50, 210, 250, 0.6);
+  }
+}

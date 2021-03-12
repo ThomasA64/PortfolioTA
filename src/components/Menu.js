@@ -5,7 +5,7 @@ export default function Menu() {
     <>
       <div className="menu-wrap">
         <input type="checkbox" className="toggler"></input>
-        <div className="hamburger">
+        <div className="hamburger radiant">
           <div></div>
         </div>
         <div className="menu">

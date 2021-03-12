@@ -7,7 +7,7 @@ export default function Home() {
         <div className="container showcase-inner">
           <div className="main">
             <div className="main-title">
-              <h1 className="load-in-top">THOMAS G. ARTHUR</h1>
+              <h1 className="load-in-top name">THOMAS G. ARTHUR</h1>
             </div>
           </div>
           <div className="logo-contain load-in-left">
