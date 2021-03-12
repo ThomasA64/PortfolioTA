@@ -5,7 +5,7 @@ export default function Cards() {
     <header className="showcase">
       <div id="cards_landscape_wrap-2">
         <div class="container">
-          <h1 className="bio">KNOWLEDGE</h1>
+          <h5 className="bio knowledge">KNOWLEDGE</h5>
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <a href="/">
