@@ -72,8 +72,9 @@
   margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: whitesmoke;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box h6 {
