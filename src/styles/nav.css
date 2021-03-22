@@ -1,0 +1,9 @@
+.nav-link {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.nav-link:hover {
+  transform: scale(1.5);
+  color: whitesmoke;
+}

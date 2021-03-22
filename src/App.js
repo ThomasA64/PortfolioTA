@@ -26,6 +26,14 @@ function App() {
             <>
               {" "}
               <Home />
+            </>
+          )}
+        />
+        <Route
+          path="/bio"
+          render={() => (
+            <>
+              {" "}
               <Cards />{" "}
             </>
           )}
