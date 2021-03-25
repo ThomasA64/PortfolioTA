@@ -1,9 +1,19 @@
 .flip-card {
   background-color: transparent;
-  width: 275px;
-  height: 400px;
+  width: 500px;
+  height: 285px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectRow {
+  width: 100%;
 }
 
 .flip-card-inner {
@@ -34,7 +44,7 @@
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(71, 78, 85);
   color: white;
   padding: 20px;
   transform: rotateY(180deg);

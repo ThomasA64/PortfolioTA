@@ -4,12 +4,9 @@ export default function Projects() {
   return (
     <>
       <header className="showcase">
-        <div class="container">
-          <div class="row">
-            <h5 className="bio knowledge">PROJECTS</h5>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="container projects">
+          <div class="row projectRow">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
@@ -20,7 +17,7 @@ export default function Projects() {
                     />
                   </div>
                   <div className="flip-card-back">
-                    <h2>Interview Scheduler</h2>
+                    <h1>Interview Scheduler</h1>
                     <p>
                       React application that allows users to book and cancel
                       interviews. Combine a concise API with a WebSocket server
@@ -33,30 +30,72 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src="./docs/thumb_TAProfile.jpg" alt="Project" />
+                    <img
+                      className="img-projects"
+                      src="./docs/AnimailHome.png"
+                      alt="Project"
+                    />
                   </div>
                   <div className="flip-card-back">
-                    <h1>Thomas Arthur</h1>
-                    <p>Full-Stack Developer</p>
-                    <p>We love that guy</p>
+                    <h1>Animail</h1>
+                    <p>
+                      Animail is a React application that allows users to send
+                      messages via their favourite animals. Full-Stack
+                      Web-Application using React.js, Express/Node.js and
+                      PostrgesSQL. Styling is complete with Bootstrap and custom
+                      CSS.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img src="./docs/thumb_TAProfile.jpg" alt="Project" />
+                    <img
+                      className="img-projects"
+                      src="./docs/JungleHome.png"
+                      alt="Project"
+                    />
                   </div>
                   <div className="flip-card-back">
-                    <h1>Thomas Arthur</h1>
-                    <p>Full-Stack Developer</p>
-                    <p>We love that guy</p>
+                    <h1>Jungle on Rails</h1>
+                    <p>
+                      Jungle is a mini e-commerce application built with Ruby on
+                      Rails.
+                      <br></br>
+                      Choose from many wacky inventions including the Electric
+                      Chair, Human Feet Shoes and Modern Skateboards! Who needs
+                      plain boring common items found on Amazon when you have
+                      access to the world's most interesting items?!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img
+                      className="img-projects"
+                      src="./docs/TweeterInDesktopView.png"
+                      alt="Project"
+                    />
+                  </div>
+                  <div className="flip-card-back">
+                    <h1>Tweeter</h1>
+                    <p>
+                      Tweeter is a simple, single-page Twitter clone. This app
+                      contains HTML, CSS, JS, jQuery and AJAX for front-end
+                      stack. It includes Node, Express and MongoDB on the
+                      back-end.
+                    </p>
                   </div>
                 </div>
               </div>

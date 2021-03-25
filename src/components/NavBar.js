@@ -15,7 +15,7 @@ export default function NavBar() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link className="nav-link" href="/projects">
+        <Nav.Link className="nav-link" href="https://github.com/ThomasA64">
           Projects
         </Nav.Link>
       </Nav.Item>
