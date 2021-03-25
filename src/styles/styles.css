@@ -102,8 +102,8 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background-color: green;
-  color: #fff;
+  background-color: rgba(19, 77, 2, 1);
+  color: whitesmoke;
   padding: 0.25rem 0.8rem;
   margin-top: 1rem;
   margin: 1rem;
