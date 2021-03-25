@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Cards from "./components/Cards";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 
 //Styles:
 import "./styles/menu.css";
@@ -12,6 +13,7 @@ import "./styles/styles.css";
 import "./styles/animations.css";
 import "./styles/cards.css";
 import "./styles/nav.css";
+import "./styles/projects.css";
 
 function App() {
   return (
@@ -36,6 +38,14 @@ function App() {
             <>
               {" "}
               <Cards />{" "}
+            </>
+          )}
+        />
+        <Route
+          path="/projects"
+          render={() => (
+            <>
+              <Projects></Projects>
             </>
           )}
         />
