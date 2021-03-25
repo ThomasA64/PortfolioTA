@@ -1,7 +1,7 @@
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 275px;
+  height: 400px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
 }
@@ -36,5 +36,13 @@
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
+  padding: 20px;
   transform: rotateY(180deg);
+}
+
+.img-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
