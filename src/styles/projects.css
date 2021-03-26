@@ -85,4 +85,10 @@
     perspective: 1000px;
     margin: 40px;
   }
+  .h1desc {
+    font-size: 12.5px;
+  }
+  .description {
+    font-size: 10px;
+  }
 }

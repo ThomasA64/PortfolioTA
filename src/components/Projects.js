@@ -16,8 +16,8 @@ export default function Projects() {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <h1>Tweeter</h1>
-                  <p>
+                  <h1 className="h1desc">Tweeter</h1>
+                  <p className="description">
                     Tweeter is a simple, single-page Twitter clone. This app
                     contains HTML, CSS, JS, jQuery and AJAX for front-end stack.
                     It includes Node, Express and MongoDB on the back-end.
@@ -36,14 +36,12 @@ export default function Projects() {
                 />
               </div>
               <div className="flip-card-back">
-                <h1>Interview Scheduler</h1>
-                <p>
+                <h1 className="h1desc">Interview Scheduler</h1>
+                <p className="description">
                   React application that allows users to book and cancel
                   interviews. Combine a concise API with a WebSocket server to
-                  build a realtime experience. Development focuses on a single
-                  page application (SPA) called Interview Scheduler, built using
-                  React. Data is persisted by the API server using a PostgreSQL
-                  database.
+                  build a realtime experience. Data is persisted by the API
+                  server using a PostgreSQL database.
                 </p>
               </div>
             </div>
@@ -62,8 +60,8 @@ export default function Projects() {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <h1>TinyApp</h1>
-                  <p>
+                  <h1 className="h1desc">TinyApp</h1>
+                  <p className="description">
                     Tiny App is an app built through Node.js and Express.js to
                     showcase Login features and Routing.
                     <br></br>
@@ -83,8 +81,8 @@ export default function Projects() {
                 />
               </div>
               <div className="flip-card-back">
-                <h1>Animail</h1>
-                <p>
+                <h1 className="h1desc">Animail</h1>
+                <p className="description">
                   Animail is a React application that allows users to send
                   messages via their favourite animals. Full-Stack
                   Web-Application using React.js, Express/Node.js and
