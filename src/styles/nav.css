@@ -8,3 +8,11 @@
   transform: scale(1.5);
   color: whitesmoke;
 }
+
+@media (max-width: 768px) {
+  .nav-link {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 15px;
+  }
+}
