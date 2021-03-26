@@ -1,6 +1,7 @@
 .nav-link {
   text-decoration: none;
   color: goldenrod;
+  font-size: 35px;
 }
 
 .nav-link:hover {
