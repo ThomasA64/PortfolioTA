@@ -10,7 +10,7 @@ export default function NavBar() {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link className="nav-link" href="#cards_landscape_wrap-2">
+        <Nav.Link className="nav-link" href="/bio">
           About
         </Nav.Link>
       </Nav.Item>
