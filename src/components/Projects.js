@@ -11,7 +11,7 @@ export default function Projects() {
                 <div className="flip-card-front">
                   <img
                     className="img-projects"
-                    src="./docs/TweeterInDesktopView.png"
+                    src="./docs/TweeterHomeNew.png"
                     alt="Project"
                   />
                 </div>
