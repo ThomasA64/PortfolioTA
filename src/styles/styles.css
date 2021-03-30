@@ -13,12 +13,7 @@
 
 body {
   line-height: 1.4;
-  background: rgba(19, 77, 2, 1);
-  background: linear-gradient(
-    135deg,
-    rgba(19, 77, 2, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: whitesmoke;
 }
 
 .container {
@@ -29,12 +24,7 @@ body {
 }
 
 .showcase {
-  background: rgba(19, 77, 2, 1);
-  background: linear-gradient(
-    135deg,
-    rgba(19, 77, 2, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: whitesmoke;
   color: #fff;
   height: 100vh;
   position: relative;
@@ -42,12 +32,7 @@ body {
 
 .showcase:before {
   content: "";
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(19, 77, 2, 1) 100%
-  );
+  background: whitesmoke;
   position: absolute;
   top: 0;
   left: 0;
@@ -84,6 +69,7 @@ body {
 
 .knowledge {
   margin-top: -2.5rem;
+  background-color: rgba(19, 77, 2, 1);
 }
 
 .showcase h2 {
@@ -129,10 +115,9 @@ body {
   align-items: center;
   height: 5rem;
   width: 15rem;
-  background-color: transparent;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  background-color: rgba(19, 77, 2, 1);
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
-  color: rgba(19, 77, 2, 1);
+  color: whitesmoke;
   margin-top: 20px;
   border-radius: 5px;
 }

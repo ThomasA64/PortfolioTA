@@ -1,19 +1,23 @@
+.navBar {
+  background-color: rgba(19, 77, 2, 1);
+}
+
 .nav-link {
   text-decoration: none;
-  color: goldenrod;
+  color: whitesmoke;
   font-size: 35px;
 }
 
 .nav-link:hover {
   transform: scale(1.15);
   transition: all 0.5s ease;
-  color: whitesmoke;
+  color: goldenrod;
 }
 
 @media (max-width: 768px) {
   .nav-link {
     text-decoration: none;
-    color: goldenrod;
+    color: whitesmoke;
     font-size: 15px;
   }
 }

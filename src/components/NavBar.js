@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 
 export default function NavBar() {
   return (
-    <Nav className="justify-content-center" activeKey="/home">
+    <Nav className="navBar justify-content-center" activeKey="/home">
       <Nav.Item>
         <Nav.Link className="nav-link" href="/">
           Home
