@@ -13,15 +13,22 @@ export default function Menu() {
             <div>
               <ul>
                 <li>
-                  <a href="/">HOME</a>
+                  <a className="a-link" href="/">
+                    HOME
+                  </a>
                 </li>
                 <li>
-                  <a href="https://github.com/ThomasA64?tab=repositories">
+                  <a
+                    className="a-link"
+                    href="https://github.com/ThomasA64?tab=repositories"
+                  >
                     PROJECTS
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/ThomasA64">GITHUB</a>
+                  <a className="a-link" href="https://github.com/ThomasA64">
+                    GITHUB
+                  </a>
                 </li>
               </ul>
               <div

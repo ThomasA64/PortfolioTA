@@ -4,8 +4,12 @@
 
 .nav-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: darkgreen;
   font-size: 35px;
+}
+
+.a-link {
+  color: whitesmoke;
 }
 
 .nav-link:hover {
