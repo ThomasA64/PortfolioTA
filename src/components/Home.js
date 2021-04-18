@@ -11,13 +11,13 @@ export default function Home() {
             </div>
           </div>
           <div className="logo-contain load-in-left">
-            <h5>FULL</h5>
+            <h5 className="fullstack">FULL</h5>
           </div>
           <div className="logo-contain load-in-right">
-            <h5>STACK</h5>
+            <h5 className="fullstack">STACK</h5>
           </div>
           <div className="logo-contain load-in-left-delayed">
-            <h5>DEVELOPER</h5>
+            <h5 className="fullstack">DEVELOPER</h5>
           </div>
           <div className="logobtns">
             {" "}

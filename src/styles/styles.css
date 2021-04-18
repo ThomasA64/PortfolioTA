@@ -81,8 +81,13 @@ body {
 }
 
 .showcase h5 {
+  color: whitesmoke;
   font-size: 3rem;
   text-shadow: 1px 1px 20px black;
+}
+
+.fulltstack {
+  color: whitesmoke;
 }
 
 .btn {
