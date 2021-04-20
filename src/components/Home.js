@@ -37,9 +37,9 @@ export default function Home() {
             </a>
           </div>
           <a href="#cards_landscape_wrap-2">
-            {/* <div class="arrow">
+            <div class="arrow">
               <div class="arrow-mask"></div>
-            </div> */}
+            </div>
           </a>
         </div>
       </header>

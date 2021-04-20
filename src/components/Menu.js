@@ -31,7 +31,7 @@ export default function Menu() {
                   </a>
                 </li>
               </ul>
-              <div
+              {/* <div
                 class="LI-profile-badge"
                 data-version="v1"
                 data-size="medium"
@@ -46,7 +46,7 @@ export default function Menu() {
                 >
                   Thomas G. Arthur
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
