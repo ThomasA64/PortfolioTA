@@ -9,5 +9,19 @@
 
 .bio-description {
   padding: 25px;
-  color: darkgreen;
+  color: rgba(19, 77, 2, 1);
+  font-family: "Times New Roman", Times, serif;
+  /* letter-spacing: 1px; */
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
