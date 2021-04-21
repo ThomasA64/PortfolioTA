@@ -39,7 +39,7 @@ function App() {
           render={() => (
             <>
               {" "}
-              <Cards />{" "}
+              <Bio />{" "}
             </>
           )}
         />
