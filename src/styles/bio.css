@@ -1,3 +1,13 @@
 .bio-section {
   display: flex;
+  padding: 25px;
+}
+
+.bio-image {
+  padding: 25px;
+}
+
+.bio-description {
+  padding: 25px;
+  color: darkgreen;
 }
