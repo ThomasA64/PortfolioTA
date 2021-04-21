@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import Cards from "./components/Cards";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
+import Bio from "./components/Bio";
 
 //Styles:
 import "./styles/menu.css";
@@ -14,6 +15,7 @@ import "./styles/animations.css";
 import "./styles/cards.css";
 import "./styles/nav.css";
 import "./styles/projects.css";
+import "./styles/bio.css";
 
 function App() {
   return (
