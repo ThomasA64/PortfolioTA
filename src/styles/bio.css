@@ -10,7 +10,8 @@
 .bio-description {
   padding: 25px;
   color: rgba(19, 77, 2, 1);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* letter-spacing: 1px; */
 }
 
