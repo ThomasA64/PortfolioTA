@@ -4,7 +4,7 @@ export default function Bio() {
   return (
     <section className="bio-section">
       <div className="bio-image">
-        <img src="./docs/thumb_TAProfile.jpg" alt="headshot" />
+        <img src="./docs/ProfileTestPhoto.jpg" alt="headshot" />
       </div>
       <div>
         <p className="bio-description">
