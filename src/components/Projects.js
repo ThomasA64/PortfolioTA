@@ -5,7 +5,58 @@ export default function Projects() {
     <>
       <section className="projectshowcase">
         <div classname="double-proj">
-          <a href="https://tweeter-ta.herokuapp.com/">
+          <a
+            className="proj-link"
+            href="https://library-ta.herokuapp.com/books"
+          >
+            <h5 className="h5desc">Library:</h5>
+
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    className="img-projects"
+                    src="./docs/Library-Double-Book.png"
+                    alt="Library-Project"
+                  />
+                </div>
+                <div className="flip-card-back">
+                  <h1 className="h1desc">Library</h1>
+                  <p className="description">
+                    Library is a full-stack web application for all of your
+                    favourite books using CSS, Node.js, Express.js and MongoDB.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="proj-link" href="https://github.com/ThomasA64/Musify">
+            <h5 className="h5desc">Musify:</h5>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    className="img-projects"
+                    src="./docs/Lyrics.png"
+                    alt="Musify-Project"
+                  />
+                </div>
+                <div className="flip-card-back">
+                  <h1 className="h1desc">Musify</h1>
+                  <p className="description">
+                    Musify is an app using React, Node.js and Express.js and the
+                    Spotify Development API to create a Spotify-like App to play
+                    music and display lyrics when a song is played.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div classname="double-proj">
+          <a className="proj-link" href="https://tweeter-ta.herokuapp.com/">
+            <h5 className="h5desc">Tweeter:</h5>
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -26,7 +77,11 @@ export default function Projects() {
               </div>
             </div>
           </a>
-          <a href="https://github.com/ThomasA64/scheduler">
+          <a
+            className="proj-link"
+            href="https://github.com/ThomasA64/scheduler"
+          >
+            <h5 className="h5desc">Interview Scheduler:</h5>
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -51,7 +106,11 @@ export default function Projects() {
         </div>
 
         <div classname="double-proj">
-          <a href="https://tiny-app-ta.herokuapp.com/login">
+          <a
+            className="proj-link"
+            href="https://tiny-app-ta.herokuapp.com/login"
+          >
+            <h5 className="h5desc">Tiny App:</h5>
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
@@ -73,7 +132,8 @@ export default function Projects() {
               </div>
             </div>
           </a>
-          <a href="https://github.com/Samicap/AniMail">
+          <a className="proj-link" href="https://github.com/Samicap/AniMail">
+            <h5 className="h5desc">Animail:</h5>
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">

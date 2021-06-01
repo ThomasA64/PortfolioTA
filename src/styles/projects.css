@@ -9,10 +9,21 @@
 
 .projectshowcase {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 5vh;
+  height: 100%;
+  max-width: 100%;
+}
+
+.h5desc {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.proj-link {
+  text-decoration: none;
 }
 
 .double-proj {
